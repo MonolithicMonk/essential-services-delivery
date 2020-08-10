@@ -3,7 +3,7 @@
     "subject_identifier": "region",
     "configuration": {
       "name": "Essential Services Organization",
-      "version": "1.0",
+      "version": "1.0.1",
       "requested_attributes": [
         {
           "name": "region",
@@ -13,6 +13,11 @@
               "schema_issuer_did": "85459GxjNySJ8HwTTQ4vq7",
               "schema_name": "verified_person",
               "schema_version": "1.4.0"
+            },
+            {
+              "issuer_did": "NCwGwDrzbZEqesYQummzWW",
+              "schema_name": "unverified_person",
+              "schema_version": "0.1.0"
             }
           ]
         }
